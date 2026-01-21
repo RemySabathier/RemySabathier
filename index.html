@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal webpage of Remy Sabathier - PhD student at Meta and UCL, working on 4D reconstruction & generation">
+  <title>Remy Sabathier</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- *** Bio Section (Top) *** -->
+    <header class="bio-section">
+      <div class="bio-photo">
+        <img src="imgs/remysabathier.jpeg" alt="Profile Photo">
+        <div class="affiliations">
+          <a href="https://ai.meta.com" target="_blank" title="Meta AI">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="Meta Logo" class="affiliation-logo">
+          </a>
+          <a href="https://geometry.cs.ucl.ac.uk/index.php" target="_blank" title="UCL">
+            <img src="imgs/ucl.png" alt="UCL Logo" class="affiliation-logo">
+          </a>
+        </div>
+      </div>
+      <div class="bio-content">
+        <h1>Remy Sabathier</h1>
+        <h2>PhD student at <a href="https://ai.meta.com">Meta</a> and <a href="https://geometry.cs.ucl.ac.uk/index.php">University College London</a></h2>
+        <p>
+          I'm a PhD student at Meta (London) and University College London, supervised by <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="https://d-novotny.github.io/">David Novotny</a> and <a href="https://tmonnier.com/">Tom Monnier</a>.
+          Before that, I completed my engineer's degree (=M.Sc.) at CentraleSupelec.
+        </p>
+        <p>
+          My research focuses on 4D reconstruction & generation.
+        </p>
+        <div class="contact-links">
+          <a href="./email.html" title="Email"><i class="fa-solid fa-envelope"></i> email.</a>
+          <a href="https://github.com/RemySabathier" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i> github.</a>
+          <a href="https://scholar.google.com/citations?user=jJYgP7IAAAAJ&hl=fr" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i> scholar.</a>
+          <a href="https://www.linkedin.com/in/r%C3%A9my-sabathier-97b264179/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> linkedin.</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- *** Publications Section *** -->
+    <section class="publications-section">
+      <h2>Publications</h2>
+
+      <!-- Paper 1 -->
+      <article class="paper-row">
+        <div class="paper-thumbnail">
+          <a href="https://remysabathier.github.io/actionmesh/" target="_blank">
+            <img src="imgs/papers/actionmesh.gif" alt="Paper 1 Thumbnail">
+          </a>
+        </div>
+        <div class="paper-details">
+          <h3 class="paper-title"> 🎬 ActionMesh: Animated 3D Mesh Generation with Temporal 3D Diffusion</h3>
+          <p class="paper-authors">
+            <strong>Remy Sabathier</strong>,
+            <a href="#">David Novotny</a>,
+            <a href="#">Niloy J. Mitra</a>,
+            <a href="#">Tom Monnier</a>
+          </p>
+          <p class="paper-venue">ArXiv 2026</p>
+          <p class="paper-links">
+            <!-- <a href="#">paper</a> | -->
+            <a href="https://remysabathier.github.io/actionmesh/">webpage</a> |
+            <a href="https://github.com/facebookresearch/actionmesh">code</a> |
+            <a href="https://huggingface.co/spaces/facebook/ActionMesh">demo</a>
+          </p>
+        </div>
+      </article>
+
+      <!-- Paper 2 -->
+      <article class="paper-row highlight">
+        <div class="paper-thumbnail">
+          <a href="https://remysabathier.github.io/lim.github.io/" target="_blank">
+            <img src="imgs/papers/lim.gif" alt="LIM">
+          </a>
+        </div>
+        <div class="paper-details">
+          <h3 class="paper-title">LIM: Large Interpolator Model for Dynamic Reconstruction</h3>
+          <p class="paper-authors">
+            <strong>Remy Sabathier</strong>,
+            <a href="#">Niloy J. Mitra</a>,
+            <a href="#">David Novotny</a>
+          </p>
+          <p class="paper-venue">CVPR 2025</p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/abs/2503.22537">paper</a> |
+            <a href="https://remysabathier.github.io/lim.github.io/">webpage</a>
+          </p>
+        </div>
+      </article>
+
+      <!-- Paper 3 -->
+      <article class="paper-row">
+        <div class="paper-thumbnail">
+          <a href="#" target="_blank">
+            <img src="imgs/papers/animalavatar.gif" alt="Paper 3 Thumbnail">
+          </a>
+        </div>
+        <div class="paper-details">
+          <h3 class="paper-title">AnimalAvatar: Reconstructing Animatable 3D Animals from Casual Videos</h3>
+          <p class="paper-authors">
+              <strong>Remy Sabathier</strong>,
+            <a href="#">Niloy J. Mitra</a>,
+            <a href="#">David Novotny</a>
+          </p>
+          <p class="paper-venue">ECCV 2024 <strong>(Oral presentation)</strong> </p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/abs/2403.17103">paper</a> |
+            <a href="https://remysabathier.github.io/animalavatar.github.io/">webpage</a> |
+            <a href="https://github.com/facebookresearch/AnimalAvatar">code</a>
+          </p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- *** Footer *** -->
+    <footer class="site-footer">
+      <p>Last updated: January 2026</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
