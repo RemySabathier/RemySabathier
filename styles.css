@@ -195,6 +195,8 @@ img {
 
 .paper-thumbnail {
   flex: 0 0 200px;
+  position: relative;
+  overflow: hidden;
 }
 
 .paper-thumbnail img {
@@ -207,6 +209,23 @@ img {
 
 .paper-thumbnail a:hover img {
   transform: scale(1.02);
+}
+
+/* NEW Ribbon */
+.ribbon-new {
+  position: absolute;
+  top: 12px;
+  left: -35px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 40px;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 6px rgba(238, 90, 90, 0.4);
+  z-index: 10;
 }
 
 .paper-details {
