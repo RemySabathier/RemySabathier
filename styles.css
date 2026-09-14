@@ -285,6 +285,27 @@ img {
 }
 
 /* ========================================
+   Academic Activities Section
+   ======================================== */
+
+.academic-activities-section {
+  margin-top: calc(var(--spacing-unit) * 3);
+}
+
+.academic-activities-section > h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+  letter-spacing: -0.01em;
+}
+
+.academic-activities-section p {
+  margin: 0 0 0.35rem 0;
+}
+
+/* ========================================
    Footer
    ======================================== */
 
